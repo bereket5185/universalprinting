@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrintVerse | Universal Printing & Advertising</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-print"></i>
+                <span>Print<span>Verse</span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="contact-btn" id="contactBtn">Get Quote</button>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Universal Printing & Advertising Solutions</h1>
+                <div class="motto">We Ink What You Think</div>
+                <p>At PrintVerse, we transform your creative visions into stunning printed materials. From business cards to large format banners, we deliver excellence with every project.</p>
+                <a href="#portfolio" class="cta-button">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Portfolio</h2>
+                <p>Explore our recent projects and see how we've brought client ideas to life</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="business">Business Cards</button>
+                <button class="filter-btn" data-filter="brochures">Brochures</button>
+                <button class="filter-btn" data-filter="banners">Banners</button>
+                <button class="filter-btn" data-filter="packaging">Packaging</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="business">
+                    <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1565689228866-1f6a9de9e5c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Elegant Business Cards</h3>
+                        <p>Premium cardstock with spot UV coating</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="brochures">
+                    <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Product Brochures</h3>
+                        <p>Glossy finish with vibrant color reproduction</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="banners">
+                    <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1584824486509-112e4181c62b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Event Banners</h3>
+                        <p>Large format printing for outdoor events</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="packaging">
+                    <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1587334894133-b4c0c466b8a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Product Packaging</h3>
+                        <p>Custom boxes with specialty finishes</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="business">
+                    <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Modern Business Cards</h3>
+                        <p>Minimalist design with foil stamping</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="brochures">
+                    <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Brochures</h3>
+                        <p>Professional design for corporate clients</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Universal printing solutions for all your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>Business Printing</h3>
+                    <p>Professional printing for your business needs</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Business Cards</span>
+                        <span><i class="fas fa-check"></i> Letterheads</span>
+                        <span><i class="fas fa-check"></i> Envelopes</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>Advertising Materials</h3>
+                    <p>Eye-catching materials to promote your business</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Flyers & Brochures</span>
+                        <span><i class="fas fa-check"></i> Posters</span>
+                        <span><i class="fas fa-check"></i> Banners</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3>Packaging Solutions</h3>
+                    <p>Custom packaging solutions for your products</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Product Boxes</span>
+                        <span><i class="fas fa-check"></i> Labels & Stickers</span>
+                        <span><i class="fas fa-check"></i> Shipping Materials</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Universal Process</h2>
+                <p>How we bring your ideas to life across all media</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We discuss your vision, requirements, and goals for the project.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Design</h3>
+                    <p>Our creative team develops concepts that bring your ideas to life.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Proofing</h3>
+                    <p>You review and approve the design before we move to production.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Universal Production</h3>
+                    <p>We use state-of-the-art technology for all printing formats.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Delivery</h3>
+                    <p>Your finished products are delivered to your doorstep.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about our universal printing services</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <p>"PrintVerse exceeded our expectations with the business cards they created for our company. The attention to detail and quality of materials was exceptional. Truly living up to their motto 'We Ink What You Think'!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>Marketing Director, TechSolutions Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The banners we ordered for our product launch were absolutely stunning. The colors were vibrant and the material was durable. PrintVerse truly understands how to translate ideas into tangible, high-quality prints."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>CEO, Innovate Labs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"I've worked with several printing services, but PrintVerse stands out with their creative approach and excellent customer service. They perfectly captured our brand essence in the packaging they designed for our products."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client">
+                            <div>
+                                <h4>Emily Rodriguez</h4>
+                                <p>Founder, Artisan Goods Co.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <div class="slider-dot active" data-index="0"></div>
+                        <div class="slider-dot" data-index="1"></div>
+                        <div class="slider-dot" data-index="2"></div>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="logo">
+                        <i class="fas fa-print"></i>
+                        <span>Print<span>Verse</span></span>
+                    </div>
+                    <p class="motto">We Ink What You Think</p>
+                    <p>Your universal partner for all printing and advertising needs. Quality prints delivered fast.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Universal Services</h3>
+                    <ul>
+                        <li><a href="#">Business Printing</a></li>
+                        <li><a href="#">Advertising Materials</a></li>
+                        <li><a href="#">Packaging Solutions</a></li>
+                        <li><a href="#">Large Format Printing</a></li>
+                        <li><a href="#">Design Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Print Street, City, State 12345</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@printverse.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 PrintVerse Universal Printing & Advertising. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Get a Universal Quote</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="project">Project Type</label>
+                    <select id="project">
+                        <option value="">Select Project Type</option>
+                        <option value="business">Business Cards</option>
+                        <option value="brochures">Brochures & Flyers</option>
+                        <option value="banners">Banners & Signage</option>
+                        <option value="packaging">Packaging</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" rows="4" placeholder="Tell us about your project"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
